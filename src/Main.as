@@ -276,7 +276,7 @@ public class Main extends Sprite {
 //        _cardNumberTextField.setTextFormat(_cardNumberTextFormat);
 
         _cardNumberTextField.styleSheet = _textStyle.cardNumberStyle1;
-        var htmlText:String = '<p class="numberStyle5">' + cardNumberString + '</p>';
+        var htmlText:String = '<p class="numberStyle1">' + cardNumberString + '</p>';
         trace(htmlText);
         _cardNumberTextField.htmlText = htmlText;
 
